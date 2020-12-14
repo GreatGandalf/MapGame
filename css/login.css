@@ -1,0 +1,70 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: varela;
+	src: url(../fonts/VarelaRound-Regular.ttf);
+}
+
+* {
+	font-family: varela;
+}
+
+#login-box {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-image: url(../img/login-background.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 140%;
+	background-position: 10% 100%;
+}
+
+#inner_box {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	width: 70%;
+}
+
+.login-input {
+	width: 100%;
+	font-size: 4em;
+	border-radius: 4em;
+	padding-left: 0.5em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	margin-bottom: 0.7em;
+	border: none;
+}
+
+.form-label {
+	font-size: 5em;
+	margin: 0;
+}
+
+.login-submit {
+	width: 100%;
+	font-size: 4em;
+	border-radius: 0.4em;
+	background-color: #1EBC61;
+	border: none;
+	padding: 0.3em;
+	margin-top: 0.9em;
+}
+
+#shadow {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(197, 211, 226, 0.5);
+}
